@@ -76,7 +76,8 @@ For the agent to report back to your snyk account on the vulnerabilities it dete
 
 To run the Node.js app with runtime monitoring:
 ```bash
-SNYK_PROJECT_ID=<PROJECT_ID> npm start
+export SNYK_PROJECT_ID=<PROJECT_ID> 
+npm start
 ```
 
 ** The app will continue to work normally even if not provided a project id
